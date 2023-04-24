@@ -1,5 +1,6 @@
 body {
-  background-color: #1e1e1e;
+  backdrop-filter: blur(20px);
+  background: rgba(30, 30, 30, 0.8);
   color: #f0f0f0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -260,4 +261,26 @@ input[type="radio"]:focus + .radio-label {
 .file-uploader p {
   cursor: pointer;
   margin-bottom: 0;
+}
+
+.titlebar {
+  height: 30px;
+  background: #3a3a3a;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.titlebar-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.titlebar-button:hover {
+  background: #313131;
 }

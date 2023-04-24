@@ -46,6 +46,7 @@ function App() {
 
   return (
     <div>
+      <div className="background-colour" />
       <br />
       <br />
       <h1 className="center">Easy Data Visualiser</h1>

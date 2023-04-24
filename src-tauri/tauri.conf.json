@@ -16,6 +16,9 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "window": {
+        "startDragging": true
       }
     },
     "bundle": {
@@ -42,7 +45,9 @@
         "resizable": true,
         "title": "DataVizualiser",
         "width": 800,
-        "height": 600
+        "height": 60,
+        "transparent": true,
+        "decorations": false
       }
     ]
   }
